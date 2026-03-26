@@ -34,7 +34,7 @@ int findItemIndex(char *id) {
 void addLog(char *type, char *item_id,int qty) {
     logs[logCount].log_id = globalLogId++;
     strcpy(logs[logCount].type, type);
-    strcpy(logs[logCount].item_id, item_id)
+    strcpy(logs[logCount].item_id, item_id);
     logs[logCount].quantity = qty;
     logCount++;
 
