@@ -28,7 +28,7 @@ int findItemIndex(char *id) {
             return i;
         }
     }
-    return -1;
+
 }
 
 void addLog(char *type, char *item_id,int qty) {
